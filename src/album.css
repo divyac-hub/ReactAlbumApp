@@ -1,0 +1,58 @@
+
+.ablumData{
+    margin: 5%;
+}
+.cardHeader{
+    background-color: cadetblue !important;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    width: 100%;
+    border: 1px solid lightslategray;
+    padding: 10px;
+}
+.loading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+.albumList{
+    padding: 5px;
+    text-align: left;
+    width: 100%;
+    border: 1px solid lightslategray;
+}
+.thumbnail{
+    text-align: center;
+}
+.GoBackBtn{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
+.clickmetext{
+    color: cadetblue;
+    font-size: 18px;
+    font-weight: 700;
+}
+.errorMessage{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.ablumtitle{
+    font-size: 14px;
+    font-weight: 700;
+}
+.ablumText{
+    font-size: 18px;
+    font-weight: 500;
+}
