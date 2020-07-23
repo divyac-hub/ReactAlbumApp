@@ -7,7 +7,6 @@
     text-align: center;
     font-weight: 700;
     font-size: 22px;
-    width: 100%;
     border: 1px solid lightslategray;
     padding: 10px;
 }
@@ -19,8 +18,9 @@
 .albumList{
     padding: 5px;
     text-align: left;
-    width: 100%;
     border: 1px solid lightslategray;
+    margin: 1px 0;
+    border-radius: 5px;
 }
 .thumbnail{
     text-align: center;
@@ -49,10 +49,52 @@
     text-align: center;
 }
 .ablumtitle{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
 }
 .ablumText{
     font-size: 18px;
     font-weight: 500;
 }
+.flexContainer{
+    margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+  
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 5%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .centered{
+      text-align: center;
+      
+  }
+  @media screen and (max-width: 480px ) {
+   .container{
+       overflow-x: scroll;
+   }
+  }
