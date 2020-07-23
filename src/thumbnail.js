@@ -13,7 +13,7 @@ const Thumbnail = (props) => {
                 <p className="clickmetext">Click Me!!!</p>
 
                 {props.thumbnailImg ? props.thumbnailData.map((a) => {
-                    return (<div className='container'><div><img src={a.imgS} alt="Data" /></div></div>)
+                    return (<div onClick={() => { props.getImageClose(a.ptitle, a.photoS) }} className='content'><div><img src={a.imgS} alt="Data" /></div></div>)
                 }) : null}
 
                 <div className='flexContainer'>

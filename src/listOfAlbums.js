@@ -90,6 +90,12 @@ class ListOfAlbum extends Component {
         })
     }
 
+    getImageClose=()=>{
+        this.setState({
+            thumbnailImg: false
+        })
+    }
+
 
     ablumClick = (ph) => {
         let that = this;
@@ -116,7 +122,8 @@ class ListOfAlbum extends Component {
                 {this.state.piFlag ? <div> <Thumbnail fetchedpic={this.state.fetchedpic}
                     getImage={this.getImage}
                     thumbnailData={this.state.thumbnailData}
-                    goBackClick={this.goBackClick} thumbnailImg={this.state.thumbnailImg} /></div> :
+                    goBackClick={this.goBackClick} thumbnailImg={this.state.thumbnailImg} 
+                    getImageClose={this.getImageClose}/></div> :
                     <div>
                         {this.state.ph.length > 0 ?
                             <div>

@@ -21,6 +21,7 @@
     border: 1px solid lightslategray;
     margin: 1px 0;
     border-radius: 5px;
+    cursor:pointer;
 }
 .thumbnail{
     text-align: center;
@@ -64,10 +65,14 @@
   justify-content: center;
   
 }
+.content{
+    cursor:pointer;
+}
 .tooltip {
     position: relative;
     display: inline-block;
     margin: 5px;
+    cursor:pointer;
   }
   
   .tooltip .tooltiptext {
@@ -94,7 +99,7 @@
       
   }
   @media screen and (max-width: 480px ) {
-   .container{
+   .content{
        overflow-x: scroll;
    }
   }
